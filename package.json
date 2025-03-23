@@ -1,0 +1,28 @@
+{
+  "name": "phone-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "echo \"Building the project...\"",
+    "test": "echo \"Running tests...\" && exit 1",
+    "run": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "<!-- start project -->\r npm i\r npm install bcryptjs\r npm install morgan",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "msnodesqlv8": "^4.5.0",
+    "mssql": "^11.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
